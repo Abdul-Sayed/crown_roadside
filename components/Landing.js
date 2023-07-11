@@ -62,28 +62,28 @@ const Landing = () => {
           activeIndex === 0 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0">{texts[0]}</h2>
+        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0 mx-2">{texts[0]}</h2>
       </div>
       <div
         className={`absolute top-0 left-0 w-full h-full flex items-start md:items-center justify-center bg-slate-800 bg-opacity-50 transition-opacity duration-500 ease-in-out ${
           activeIndex === 1 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0">{texts[1]}</h2>
+        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0 mx-2">{texts[1]}</h2>
       </div>
       <div
         className={`absolute top-0 left-0 w-full h-full flex items-start md:items-center justify-center bg-slate-800 bg-opacity-50 transition-opacity duration-500 ease-in-out ${
           activeIndex === 2 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0">{texts[2]}</h2>
+        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0 mx-2">{texts[2]}</h2>
       </div>
       <div
         className={`absolute top-0 left-0 w-full h-full flex items-start md:items-center justify-center bg-slate-800 bg-opacity-50 transition-opacity duration-500 ease-in-out ${
           activeIndex === 3 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0">{texts[3]}</h2>
+        <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mt-5 md:mt-0 mx-2">{texts[3]}</h2>
       </div>
     </section>
   );
