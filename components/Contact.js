@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-xl font-semibold mb-2">Address</h2>
-            <p>123 Roadside Dr, City</p>
+            <p>1615 Dundas St East, Whitby ON L1N2H1</p>
           </div>
           <div>
             <h2 className="text-xl font-semibold mb-2">Hours</h2>
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
         <div className="mt-8">
           <h2 className="text-xl font-semibold mb-2">Contact Number</h2>
-          <p>Phone: +1-123-456-7890</p>
+          <p>Phone: 416-500-5770</p>
         </div>
         <form
           className="mt-8"
