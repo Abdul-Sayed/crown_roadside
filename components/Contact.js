@@ -1,6 +1,7 @@
 "use client";
 
 import { useForm, ValidationError } from "@formspree/react";
+import Link from "next/link";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xpzgdoyq");
@@ -16,9 +17,22 @@ const Contact = () => {
     <section className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
       <p className="mb-4">
-        Have any questions or inquiries? We&apos;d love to hear from you! Use the form below to send us a message, or
-        reach out to us using the contact information provided.
+        Have any questions or inquiries? We&apos;d love to hear from you! Click on the whatsApp link, or use the form
+        below to send us a message, or reach out to us using the contact information provided.
       </p>
+      <div className="my-6">
+        <h2 className="text-xl font-semibold mb-2">Click to chat</h2>
+        <p>
+          WhatsApp:{" "}
+          <a
+            href="https://wa.me/+16476483691"
+            as="+16476483691"
+            target="_blank"
+          >
+            <span className="font-bold text-whatsapp-green">+1 (647) 648-3691</span>
+          </a>
+        </p>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <h2 className="text-xl font-semibold mb-2">Address</h2>
@@ -26,8 +40,7 @@ const Contact = () => {
         </div>
         <div>
           <h2 className="text-xl font-semibold mb-2">Hours</h2>
-          <p>Monday-Friday: 9am-5pm</p>
-          <p>Saturday-Sunday: Closed</p>
+          <p>24 hours 7 days a week</p>
         </div>
       </div>
       <div className="mt-8">
