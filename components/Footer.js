@@ -8,7 +8,7 @@ const Footer = () => {
           <h3 className="text-white text-lg font-semibold mb-2">Contact Us</h3>
           <p className="text-gray-400 mb-2">1615 Dundas St East, Whitby ON L1N2H1</p>
           <p className="text-gray-400 mb-2">Phone: 416-500-5770</p>
-          <p className="text-gray-400">Email: crownroadside@proton.me</p>
+          <p className="text-gray-400">Email: contact@crownroadside.ca</p>
         </div>
         <div className="w-full md:w-2/3 lg:w-3/4">
           <Map />
