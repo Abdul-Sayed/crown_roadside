@@ -28,9 +28,8 @@ const OpportunityPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform form submission logic here
-    console.log(formData);
     // Reset the form
+    e.target.reset();
     setFormData({
       name: "",
       email: "",
