@@ -45,7 +45,7 @@ const Contact = () => {
       </div>
       <div className="mt-8">
         <h2 className="text-xl font-semibold mb-2">Contact Number</h2>
-        <p>Phone: 416-500-5770</p>
+        <p>Phone: 647-648-3691</p>
       </div>
       <form
         className="mt-8"
